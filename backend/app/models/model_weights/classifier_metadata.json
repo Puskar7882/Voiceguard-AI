@@ -1,0 +1,11 @@
+{
+  "architecture": "Wav2Vec2-Base + DeepfakeClassifierHead(768->128->32->1)",
+  "feature_extractor": "facebook/wav2vec2-base",
+  "embedding_dimension": 768,
+  "input_sample_rate": 16000,
+  "trained_at": "2026-09-03T19:45:32Z",
+  "train_samples": 280,
+  "val_samples": 60,
+  "test_samples": 60,
+  "best_val_loss": 0.0182
+}

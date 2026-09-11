@@ -1,0 +1,39 @@
+﻿# Secrets & environment
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+voiceguard_dev.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# ML model artifacts
+backend/app/models/model_weights/*.onnx
+backend/app/models/model_weights/*.pt
+backend/app/models/model_weights/*.pth
+ml/data/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Docker
+*.log
